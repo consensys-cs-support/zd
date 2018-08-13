@@ -1,1 +1,1 @@
-worker: node zen.js
+worker: node index.js
