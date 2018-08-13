@@ -6,9 +6,9 @@ today = today.toISOString().slice(0,10)
 var zendesk = require('node-zendesk');
 
 var client = zendesk.createClient({
-  username:  'justin.vuong@consensys.net',
-  token:     'h5GZTXGot6OlA8Nw4LbwAHuiBxLcbEiB5xIBKB1H',
-  remoteUri: 'https://consensys.zendesk.com/api/v2'
+  username:  'abc@website.net',
+  token:     'abcd',
+  remoteUri: 'https://abcd.zendesk.com/api/v2'
 });
 
 
